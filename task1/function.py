@@ -55,6 +55,6 @@ def id_edit_del_show(text):
             if text == 'show':
                 print(Note.Note.map_note(notes))
     if logic == True:
-        print('Такой заметки нет, вы ввели неверны id')
+        print('Такой заметки нет, вы ввели неверный id')
     file_operation.write_file(array, 'a')
     
